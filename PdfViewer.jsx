@@ -3,7 +3,6 @@ import { AzureKeyCredential, TextAnalysisClient } from '@azure/ai-language-text'
 import { Document, Page, pdfjs } from 'react-pdf';
 import * as pdfjsLib from 'pdfjs-dist/webpack.mjs';
 
-
 pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 function App() {
